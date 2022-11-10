@@ -1,0 +1,168 @@
+/* FONT */
+@font-face
+{
+	font-family: "Barlow";
+	src: url("../fonts/barlow/Barlow-Regular.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face
+{
+	font-family: "Barlow";
+	src: url("../fonts/barlow/Barlow-Bold.ttf") format("truetype");
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face
+{
+	font-family: "Barlow";
+	src: url("../fonts/barlow/Barlow-Italic.ttf") format("truetype");
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face
+{
+	font-family: "Barlow";
+	src: url("../fonts/barlow/Barlow-BoldItalic.ttf") format("truetype");
+	font-weight: bold;
+	font-style: italic;
+}
+
+html, body
+{
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+}
+
+p, a, h1, h2, h3, h4, h5, h6, div
+{
+	font-family: Barlow;
+	font-size: 14px;
+}
+
+.fs-1
+{
+	font-size: 14px;
+}
+
+.fs-2
+{
+	font-size: 16px;
+}
+
+.fs-3
+{
+	font-size: 18px;
+}
+
+.fs-4
+{
+	font-size: 20px;
+}
+
+.fs-bg-1
+{
+	font-size: 30px;
+}
+
+.fs-bg-2
+{
+	font-size: 35px;
+}
+
+.fs-bg-3
+{
+	font-size: 40px;
+}
+
+.fs-bg-4
+{
+	font-size: 45px;
+}
+
+.fs-bg-5
+{
+	font-size: 50px;
+}
+
+.text-white
+{
+	color: #ffffff;
+}
+
+.text-white-secondary
+{
+	color: #cacaca;
+}
+/* FONT */
+
+
+
+/* FLEX */
+.d-flex
+{
+	display: flex;
+}
+
+.v-ct-align
+{
+	align-items: center;
+}
+
+.v-st-align
+{
+	align-items: start;
+}
+
+.v-end-align
+{
+	align-items: end;
+}
+
+.h-ct-align
+{
+	justify-content: center;
+}
+
+.h-st-align
+{
+	justify-content: start;
+}
+
+.h-end-align
+{
+	justify-content: end;
+}
+/* FLEX */
+
+
+
+/* WIDTH */
+.w-100
+{
+	width: 100%;
+}
+
+.w-65
+{
+	width: 65%;
+}
+
+.w-35
+{
+	width: 35%;
+}
+/* WIDTH */
+
+
+
+/* HEIGHT */
+.h-100
+{
+	height: 100%;
+}
+/* HEIGHT */
